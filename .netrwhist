@@ -1,9 +1,2 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/tmp'
-let g:netrw_dirhist_2='/home/jenik/projects/vekson/vekson/application/classes'
-let g:netrw_dirhist_3='/home/jenik/projects/prodavai/prodavai'
-let g:netrw_dirhist_4='/home/jenik/projects/prodavai/prodavai/roo'
-let g:netrw_dirhist_5='/home/jenik/projects/prodavai/prodavai'
-let g:netrw_dirhist_6='/home/jenik/projects/prodavai/prodavai/js'
-let g:netrw_dirhist_7='/home/jenik/projects/prodavai/prodavai'
