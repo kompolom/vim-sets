@@ -1,0 +1,9 @@
+[submodule "bundle/vim-less"]
+	path = bundle/vim-less
+	url = git@github.com:kompolom/vim-less.git
+[submodule "bundle/vim-css3-syntax"]
+	path = bundle/vim-css3-syntax
+	url = git@github.com:kompolom/vim-css3-syntax.git
+[submodule "bundle/vim-css-color"]
+	path = bundle/vim-css-color
+	url = git@github.com:kompolom/vim-css-color.git
