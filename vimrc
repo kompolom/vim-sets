@@ -162,14 +162,12 @@ map Ю >
 "fugitive
 map <F3> <Esc>:Gstatus<CR>
 imap <F3> <Esc>:Gstatus<CR>
-
-"map <F4> <Esc>:Git commit -a -m 
-
-"tabs
+map <F4> <Esc>:Git commit -a -m 
 imap <F5> <Esc>:SyntasticCheck <CR>i
 map  <F5> <Esc>:SyntasticCheck <CR>
 imap <F6> <Esc>:Gdiff <CR>i
 map <F6> <Esc>:Gdiff <CR>
+"tabs
 imap <F7> <Esc>:tabnew <CR>:NERDTree<cr>
 map <F7> <Esc>:tabnew <CR>:NERDTree<CR>
 imap <F8> <Esc>:tabc <CR>i
