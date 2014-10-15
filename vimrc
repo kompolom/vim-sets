@@ -17,6 +17,7 @@ set ruler
 set title
 set showmatch
 "set visualbell
+let mapleader=" "
 set background=dark
 set autoread
 set tabstop=2
@@ -35,27 +36,33 @@ map <S-Insert> <MiddleMouse>
 map! <S-Insert> <MiddleMouse>
 
 set foldenable
-set foldmethod=manual
+set foldlevel=1
+set foldnestmax=3
+set foldmethod=syntax
 map <F9>  <esc>:call SWITCHFOLD()<cr>
 function SWITCHFOLD()
     if &foldmethod=="marker"
         set foldmethod=syntax
         echo &foldmethod 
+        set smartindent
         return
     endif
     if &foldmethod=="syntax"
         set foldmethod=indent
         echo &foldmethod 
+        set smartindent
         return
     endif
     if &foldmethod=="indent"
         set foldmethod=manual
         echo &foldmethod 
+        set smartindent
         return
     endif
     if &foldmethod=="manual"
         set foldmethod=marker
         echo &foldmethod 
+        set smartindent
         return
     endif
 endfunction
