@@ -186,3 +186,14 @@ imap <C-S> <Esc>:w<CR>i
 
 "colors
 colorscheme slate
+
+if has('gui_running') " Глобальные настройки на GUI Vim
+    set guioptions-=m " убираем меню
+    set guioptions-=e " убираем вкладки GUI делаем их как в консоли
+    set guioptions-=T " убираем тулбар
+    set guioptions-=r " убираем полосы прокрутки справа
+    set guioptions-=L " убираем полосы прокрутки слева
+    "set background=light " Цвет фона темный или светлый
+    set guioptions-=R
+    set guioptions-=l
+endif
