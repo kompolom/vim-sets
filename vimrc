@@ -23,6 +23,7 @@ set autoread
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set autoindent
 set smartindent
 set statusline=%<%f%h%m%r%=%{fugitive#statusline()}\ format=%{&fileformat}\ file=%{&fileencoding}\ enc=%{&encoding}\ %b\ 0x%B\ %l,%c%V\ %P
 
